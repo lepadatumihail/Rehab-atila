@@ -58,35 +58,52 @@
       <!-- End Header Top Area  -->
       <!-- Start Header Area  -->
       <header
-        class="rainbow-header header-default header-transparent header-sticky"
+        class="rainbow-header header-default header-transparent header-center-align header-sticky"
       >
         <div class="container position-relative">
-          <div class="row align-items-center row--0">
-            <div class="col-lg-3 col-md-6 col-4">
-              <div class="logo">
-                <a href="index.html">
-                  <img
-                    class="logo-light"
-                    src="assets/images/logo/logo.png"
-                    alt="Corporate Logo"
-                  />
-                  <img
-                    class="logo-dark"
-                    src="assets/images/logo/logo-dark.png"
-                    alt="Corporate Logo"
-                  />
-                </a>
+          <div class="row align-items-center">
+            <div class="col-lg-2 col-md-6 col-6">
+              <div class="header-left d-flex">
+                <div class="logo">
+                  <a href="index.html">
+                    <img
+                      class="logo-light"
+                      src="assets/images/logo/logo.png"
+                      alt="Corporate Logo"
+                    />
+                    <img
+                      class="logo-dark"
+                      src="assets/images/logo/logo-dark.png"
+                      alt="Corporate Logo"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
-            <div class="col-lg-9 col-md-6 col-8 position-static">
+
+            <div class="col-lg-8 position-static d-none d-lg-block">
+              <nav class="mainmenu-nav onepagenav">
+                <ul class="mainmenu justify-content-center">
+                  <li class="current"><a href="#home">Home</a></li>
+                  <li><a href="#service">Service</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#clients">Clients</a></li>
+                  <li><a href="#team">Meet The Team</a></li>
+                  <li><a href="#contact">Contact With Us</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="col-lg-2 col-md-6 col-6">
               <div class="header-right">
-                <nav class="mainmenu-nav d-none d-lg-block">
-                  <ul class="mainmenu">
-                    <li><a href="contact.html">About</a></li>
-                    <li><a href="contact.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                  </ul>
-                </nav>
+                <div class="header-btn d-none d-xl-block">
+                  <a
+                    class="btn-default btn-small round"
+                    target="_blank"
+                    href="https://themeforest.net/checkout/from_item/34133466?license=regular"
+                    >BUY NOW</a
+                  >
+                </div>
 
                 <!-- Start Mobile-Menu-Bar -->
                 <div class="mobile-menu-bar ml--5 d-block d-lg-none">
@@ -97,11 +114,84 @@
                   </div>
                 </div>
                 <!-- Start Mobile-Menu-Bar -->
+
+                <!-- Start Switcher Area  -->
+                <div id="my_switcher" class="my_switcher">
+                  <ul>
+                    <li>
+                      <a
+                        href="javascript: void(0);"
+                        data-theme="light"
+                        class="setColor light"
+                      >
+                        <img
+                          class="sun-image"
+                          src="assets/images/icons/sun-01.svg"
+                          alt="Sun images"
+                        />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="javascript: void(0);"
+                        data-theme="dark"
+                        class="setColor dark"
+                      >
+                        <img
+                          class="Victor Image"
+                          src="assets/images/icons/vector.svg"
+                          alt="Vector Images"
+                        />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- Start Switcher Area  -->
               </div>
             </div>
           </div>
         </div>
       </header>
+      <!-- End Header Area  -->
+      <div class="popup-mobile-menu">
+        <div class="inner">
+          <div class="header-top">
+            <div class="logo">
+              <a href="index.html">
+                <img
+                  class="logo-light"
+                  src="assets/images/logo/logo.png"
+                  alt="Corporate Logo"
+                />
+                <img
+                  class="logo-dark"
+                  src="assets/images/logo/logo-dark.png"
+                  alt="Corporate Logo"
+                />
+              </a>
+            </div>
+            <div class="close-menu">
+              <button class="close-button">
+                <i class="feather-x"></i>
+              </button>
+            </div>
+          </div>
+          <ul class="mainmenu onepagenav">
+            <li class="current"><a href="#home">Home</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#team">Meet The Team</a></li>
+            <li><a href="#contact">Contact With Us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Start Theme Style  -->
+      <div>
+        <div class="rainbow-gradient-circle"></div>
+        <div class="rainbow-gradient-circle theme-pink"></div>
+      </div>
       <!-- End Header Area  -->
       <div class="popup-mobile-menu">
         <div class="inner">
@@ -142,7 +232,7 @@
 
       <!-- Start Slider Area  -->
       <div
-        class="sslider-area slider-style-1 variation-default bg_image bg_image--3 height-850 d-flex align-items-center bg_image_fixed"
+        class="sslider-area slider-style-1 variation-default bg_image bg_image--3 height-850 d-flex align-items-center"
         data-black-overlay="7"
       >
         <div class="container">
@@ -466,12 +556,7 @@
         <div class="container">
           <div class="row"></div>
           <div class="row">
-            <div
-              class="col-lg-4 col-md-6 col-sm-6 col-12"
-              data-sal="slide-up"
-              data-sal-duration="700"
-              data-sal-delay="100"
-            >
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
               <div class="count-box counter-style-2 text-center">
                 <div>
                   <div class="count-number">

@@ -82,16 +82,16 @@
 /*-- Variables --*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 :root {
-  --color-primary: #0537ff;
+  --color-primary: #17899b;
   --color-primary-rgba: rgb(5, 157, 255);
   --color-primary-rgba-2: rgba(5, 157, 255,0.15);
   --color-primary-alt: #059DFF;
   --color-primary-light: #059DFF;
   --color-primary-lightest: #059DFF;
-  --color-secondary: #0088ff;
+  --color-secondary: #024eff;
   --color-tertiary: #6549D5;
   --color-tertiary-alt: #6549D5;
-  --color-pink: #00d9f6;
+  --color-pink: #009ac1;
   --color-light-green: #36c5f069;
   --color-primary-darker: #011827;
   --color-tertiary-darker: #150b40;
@@ -7682,7 +7682,7 @@ textarea:-ms-input-placeholder {
 ==========================*/
 /* Theme Gradient */
 .theme-gradient, .counter-style-1 .count-number {
-  background: linear-gradient(95deg, var(--color-primary) 35%,  var(--color-pink) 75%, var(--color-secondary) 100%) 98%/200% 100%;
+  background: linear-gradient(95deg, var(--color-secondary) 35%,  var(--color-pink) 75%, var(--color-primary) 100%) 98%/200% 100%;
   text-transform: capitalize;
   -webkit-background-clip: text;
   background-clip: text;
@@ -8980,6 +8980,7 @@ xclip
 }
 .header-default .logo a img {
   max-height: 85px;
+  padding: 5px;
 }
 .header-default .header-right {
   display: flex;
