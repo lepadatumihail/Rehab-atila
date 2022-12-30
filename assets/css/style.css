@@ -9148,10 +9148,10 @@ xclip
   }
 }
 .mainmenu-nav .mainmenu > li > a:hover, .mainmenu-nav .mainmenu > li > a.active {
-  color: var(--color-primary) !important;
+  color: var(--color-secondary) !important;
 }
 .mainmenu-nav .mainmenu > li.current > a {
-  color: var(--color-primary) !important;
+  color: var(--color-secondary) !important;
 }
 .mainmenu-nav .mainmenu li {
   margin-top: 0;
@@ -9834,7 +9834,7 @@ div.btn-default {
   border-color: transparent;
   border-radius: 8px;
   background-color: transparent;
-  background: linear-gradient(95deg, var(--color-primary) 55%, var(--color-secondary) 100%) 95%/200% 100%;
+  background: linear-gradient(95deg, var(--color-secondary) 55%, var(--color-primary) 100%) 95%/200% 100%;
   transition-duration: 300ms;
   color: var(--color-white);
   font-size: 16px;
@@ -10717,7 +10717,7 @@ div.btn-default.rounded-player.sm-size {
   background-color: transparent;
   border-bottom: 0 none;
   box-shadow: none;
-  padding: 20px 30px;
+  padding: 30px 30px;
   margin-bottom: 0;
 }
 .rainbow-accordion-style .card .card-header button {
@@ -13470,7 +13470,7 @@ iframe {
   z-index: 2;
 }
 .about-style-5 .about-wrapper {
-  margin-top: -150px;
+  margin-top: 150px;
   background: var(--color-blackest);
   border-radius: 10px;
   padding: 15px;
@@ -14514,7 +14514,7 @@ iframe {
 }
 
 .frame-image {
-  padding: 20px;
+  padding: 10px;
   position: relative;
   right: 0;
   border-radius: 10px;
@@ -15782,7 +15782,10 @@ body.active-light-mode .rainbow-back-top,
 body.active-light-mode .popup-mobile-menu .inner,
 body.active-light-mode .rainbow-call-to-action.style-8,
 body.active-light-mode .bg-overlay-solid::before {
-  background: #f5f8fa;
+  background: #e9e9e9;
+}
+body.active-light-mode .single-timeline .single-content{
+  background:linear-gradient(40deg, #0018f600 20%, rgb(135 135 135 / 66%));
 }
 
 body.active-light-mode .rainbow-header.sticky {
