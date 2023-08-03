@@ -1306,9 +1306,12 @@ iframe {
 /*===========================
     Background Image 
 =============================*/
-.bg_image_fixed {
-  background-attachment: fixed !important;
+@media only screen and (min-width: 900px) {
+  .bg_image_fixed {
+    background-attachment: fixed !important;
+  }
 }
+
 
 .bg_image--1 {
   background-image: url(../images/bg/bg-image-1.jpg);

@@ -40,9 +40,9 @@
         current = currentPage[currentPage.length - 1];
       $(".mainmenu li a").each(function () {
         var $this = $(this);
-
-        if ($this.attr("href") === current) {
-          console.log(current);
+        var parts = $this.attr("href").split("/");
+        var lastPart = parts[parts.length - 1];
+        if (lastPart === current) {
           $this.addClass("active");
           $this.parents(".has-menu-child-item").addClass("menu-item-open");
         }
